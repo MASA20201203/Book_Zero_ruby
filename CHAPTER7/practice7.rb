@@ -105,3 +105,12 @@ def price(item:, size: "ショート")
 end
 
 puts price(item: "コーヒー")
+
+puts "\n"
+puts "<7-5>"
+def order(drink)
+  puts "#{drink}をください"
+end
+
+drink = "コーヒー"
+order(drink)
