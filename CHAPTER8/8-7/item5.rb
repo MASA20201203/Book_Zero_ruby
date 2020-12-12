@@ -18,7 +18,8 @@ class Drink < Item
     @size = text
   end
   def full_name
-    "#{@name} #{@size}サイズ"
+    # super
+    "#{super} #{@size}サイズ"
   end
 end
 
