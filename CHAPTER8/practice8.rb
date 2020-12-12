@@ -46,10 +46,9 @@ puts item.name
 puts "\n"
 puts "<8-5>"
 class Item
-    #<8-7>のため、一旦コメントアウト
-  # def initialize
-  #   puts "商品を扱うオブジェクト"
-  # end
+  def initialize
+    puts "商品を扱うオブジェクト"
+  end
 end
 
 Item.new
@@ -57,10 +56,9 @@ Item.new
 puts "---"
 
 class Item
-  #<8-7>のため、一旦コメントアウト
-  # def initialize(text)
-  #   @name = text
-  # end
+  def initialize(text)
+    @name = text
+  end
   def name
     @name
   end
